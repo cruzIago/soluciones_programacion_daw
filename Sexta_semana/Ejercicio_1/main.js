@@ -13,6 +13,9 @@ function __main__() {
             "\n1- Introducir datos" +
             "\n2- Mostrar datos" +
             "\n3- Salir");
+
+        eleccion_usuario = eleccion_usuario.toLowerCase();
+
         switch (eleccion_usuario) {
             case "1":
             case "introducir":
